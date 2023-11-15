@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  ai-engine:
+    build: ../plagiat
+    command: streamlit run app.py
+    ports:
+      - 80:8501
+ 
